@@ -18,7 +18,7 @@ namespace TurOtomasyonu.Models
         public DbSet<TourCategory> TourCategories { get; set; }
         public DbSet<Tour> Tours { get; set; }
         public DbSet<Customer> Customers { get; set; }
-        //satın alma işleminden sonra
+        
         public DbSet<CustomerTourHistory> Histories { get; set; }
 
         public DbSet<Comment> Comment { get; set; }
